@@ -20,7 +20,7 @@ with the second message you have to give answer to their quesries.
 """
 
 chat = QABot.pdf_qa(
-        input_files=["/Users/harshitnariya/PycharmProjects/whatsapp-bot/Amazon-policy.pdf"],
+        input_files=["/Amazon-policy.pdf"],
         system_prompt=prompt
 
     )
